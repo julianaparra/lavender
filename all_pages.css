@@ -16,6 +16,7 @@ img{
 ul{
     list-style-type: none;
     overflow: hidden;
+<<<<<<< HEAD
     background-image: url(images/rainbow.jpg);
 }
 .normalnav li{
@@ -24,6 +25,15 @@ ul{
     height: 60px;
 }
 .normalnav li a{
+=======
+    background-color: lightgray;
+}
+li{
+    float: left;
+    border: 2px solid black;
+}
+li a{
+>>>>>>> fc46f2674f4ecb90e7a20dad80dbb70bf4b04019
     display: block;
     color: black;
     text-align: center;
@@ -32,7 +42,12 @@ ul{
     margin-left: 147px;
     margin-right: 147px;
 }
+<<<<<<< HEAD
 .normalnav li a:hover{
+=======
+li a:hover{
+    background-color: #B79AEA;
+>>>>>>> fc46f2674f4ecb90e7a20dad80dbb70bf4b04019
     color: white;
     text-decoration: bold;
 }
